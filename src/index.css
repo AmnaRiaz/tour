@@ -1,0 +1,77 @@
+/* body{
+    background-image: url('./home.jpg');
+} */
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    background-color: #fff !important;
+}
+
+.navbar-brand{
+    font-size: 1.9rem;
+    color: #565387 !important;
+}
+.navbar a {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.navbar a:hover {
+    color: #3498db !important;
+}
+.menu_active{
+    font-weight: bold ;
+    border-bottom: 1px solid #565387;
+}
+
+#header{
+    background-image: url('./img1.jpg') ;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+}
+#header h1{
+    margin: 0 0 0px 0;
+    font-size: 48px;
+    font: 700;
+    color: #f4a688;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.high{
+    color: #f4a688;
+}
+#header h2{
+    color: black;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#header .btn-check-now{
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color:white;
+    /* border: 2px solid ; */
+    text-decoration: none;
+    position: absolute;
+    left: 45%;
+    background: black;
+       
+}
+#header .btn-check-now:hover{
+    background: #3498db;
+    color: white;
+}
